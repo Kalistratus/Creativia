@@ -1,0 +1,780 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Creativia</title>
+    <link href="main.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7dcb1c55f9.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+<!--header-->
+    <header class="section" id="header">
+        <div class="container"> <!--centering-->
+            <img src="img/logo.png" alt="logo" class="logo">
+            <!--header navigation menu-->
+            <nav class="raleway">
+                <ul>
+                    <li><a href="#home" title="home"><span class="on">home</span><span class="off fas fa-home"></span></a></li>
+                    <li><a href="#about" title="about us"><span class="on">about us</span><span class="off far fa-address-card"></span></a></li>
+                    <li><a href="#portfolio" title="portfolio"><span class="on">portfolio</span><span class="off fas fa-paint-brush"></span></a></li>
+                    <li><a href="#clients" title="clients"><span class="on">clients</span><span class="off fas fa-user-plus"></span></a></li>
+                    <li><a href="#team" title="team"><span class="on">team</span><span class="off fas fa-users"></span></a></li>
+                    <li><a href="#services" title="services"><span class="on">services</span><span class="off fas fa-cogs"></span></a></li>
+                    <li><a href="#blog" title="blog"><span class="on">blog</span><span class="off fas fa-dollar-sign"></span></a></li>
+                    <li><a href="#contact" title="contact"><span class="on">contact</span><span class="off fas fa-blog"></span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!--slider-->
+    <section class="slider" id="slider">
+      <div id="slider-block" class="slider-block">
+        
+        <!--all slides-->
+        <div class="slider__items">
+          <!--first slide-->
+          <div class="slider__item slider__item_active" style="background-image: url('img/slider1.jpg');">
+            <div class="container">
+              <h1><span class="fontWhite">why</span> creativia ?</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et dolor justo. Phasellus eu ligula ac nisl volutpat tincidunt. Vestibulum vitae rhoncus odio Fusce sed enim erat. Mauris dictum lorem eu tortor porta placerat. Suspendisse ac vestibulum eros. Nulla mi ipsum, consequat commodo condimentum vitae</p>
+              <div class="slider_buttons">
+                <a href="#features1" class="btn raleway" title="View more">features</a>
+                <a href="#freepsd1" class="btn raleway" title="Video tour">free psd</a>
+              </div>
+            </div>
+          </div>
+
+          <!--second slide-->
+          <div class="slider__item" style="background-image: url('img/slider2.jpg');">
+            <div class="container">
+              <h1><span class="fontWhite">why</span> creativia ?</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et dolor justo. Phasellus eu ligula ac nisl volutpat tincidunt. Vestibulum vitae rhoncus odio Fusce sed enim erat. Mauris dictum lorem eu tortor porta placerat. Suspendisse ac vestibulum eros. Nulla mi ipsum, consequat commodo condimentum vitae</p>
+              <div class="slider_buttons">
+                <a href="#features2" class="btn raleway" title="View more">features</a>
+                <a href="#freepsd2" class="btn raleway" title="Video tour">free psd</a>
+              </div>
+            </div>
+          </div>
+  
+          <!--third slide-->
+          <div class="slider__item" style="background-image: url('img/slider3.jpg');">
+            <div class="container">
+              <h1><span class="fontWhite">why</span> creativia ?</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et dolor justo. Phasellus eu ligula ac nisl volutpat tincidunt. Vestibulum vitae rhoncus odio Fusce sed enim erat. Mauris dictum lorem eu tortor porta placerat. Suspendisse ac vestibulum eros. Nulla mi ipsum, consequat commodo condimentum vitae</p>
+              <div class="slider_buttons">
+                <a href="#features3" class="btn raleway" title="View more">features</a>
+                <a href="#freepsd3" class="btn raleway" title="Video tour">free psd</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--slider buttons-->
+      <a class="slider__control slider__control_prev" href="#" role="button"></a>
+      <a class="slider__control slider__control_next" href="#" role="button"></a>
+    </section>
+
+<!--about-->
+    <section class="about" id="about">
+      <div class="container line">
+        <h2><span class="fontBlack">about</span> creativia</h2>
+        <p class="subtitle">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit.</span> Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis.</p>
+        
+        <!--about main content-->
+        <div class="about_main flex">
+
+          <div class="about_main_item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et dolor justo. Phasellus eu ligula ac nisl volutpat tincidunt. Vestibulum vitae rhoncus odio Fusce sed enim erat. Mauris dictum lorem eu tortor porta placerat. Suspendisse ac vestibulum eros. Nulla mi ipsum, consequat commodo condimentum vitae, </p>
+            
+            <dl class="dropdown_content">
+              <dt class="heading">
+                <input type="checkbox" id="check" onclick="showHide('block_id')">
+                <label for="check" class="raleway">Hwo is creativia</label>
+              </dt>
+              <dd id="block_id" style="display: none;" class="definition">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et dolor justo. Phasellus eu ligula ac nisl volutpat tincidunt. Vestibulum vitae rhoncus odio Fusce sed enim erat. Mauris dictum lorem eu tortor porta placerat. Suspendisse ac vestibulum eros.</p>
+              </dd>
+            </dl>
+
+            <dl class="dropdown_content">
+              <dt class="heading">
+                <input type="checkbox" id="check2" onclick="showHide('block_id2')">
+                <label for="check2" class="raleway">Experiences</label>
+              </dt>
+              <dd id="block_id2" style="display: none;" class="definition">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et dolor justo. Phasellus eu ligula ac nisl volutpat tincidunt. Vestibulum vitae rhoncus odio Fusce sed enim erat. Mauris dictum lorem eu tortor porta placerat. Suspendisse ac vestibulum eros.</p>
+              </dd>
+            </dl>
+
+            <dl class="dropdown_content">
+              <dt class="heading">
+                <input type="checkbox" id="check3" onclick="showHide('block_id3')">
+                <label for="check3" class="raleway">Learn more</label>
+              </dt>
+              <dd id="block_id3" style="display: none;" class="definition">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et dolor justo. Phasellus eu ligula ac nisl volutpat tincidunt. Vestibulum vitae rhoncus odio Fusce sed enim erat. Mauris dictum lorem eu tortor porta placerat. Suspendisse ac vestibulum eros.</p>
+              </dd>
+            </dl>
+          </div>
+
+          <div class="about_main_item">
+            <img src="img/polygon_photo_2.jpg" alt="photo-polygon" class="poly-hex2 hex back">
+            <img src="img/polygon_photo_3.jpg" alt="photo-polygon" class="poly-hex3 hex back">
+            <div class="polygon_white hex"></div>
+            <img src="img/polygon_photo_1.jpg" alt="photo-polygon" class="poly-hex1 hex">
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--about-bottom-->
+<section class="about_bottom">
+  <div class="container">
+    <div class="about_bottom_items flex">
+
+      <div class="about_bottom_item">
+        <div class="icon_hex">
+          <i class="fas fa-heart"></i>
+            <svg>
+                <polygon points="0,45 25,0 75,0 100,45 75,90 25,90"/>
+            </svg>
+        </div>
+        <p class="raleway">Flat design</p>
+        <p>Lorem ipsum dolor sit amet cras vitae sodales ac nec prellentesque vivamus eget mauris fusce sit amet</p>
+      </div>
+
+      <div class="about_bottom_item">
+        <div class="icon_hex">
+          <i class="fas fa-check-square"></i>
+            <svg>
+                <polygon points="0,45 25,0 75,0 100,45 75,90 25,90"/>
+            </svg>
+        </div>
+        <p class="raleway">Retina ready</p>
+        <p>Lorem ipsum dolor sit amet cras vitae sodales ac nec prellentesque vivamus eget mauris fusce sit amet</p>
+      </div>
+
+      <div class="about_bottom_item">
+        <div class="icon_hex">
+          <i class="fas fa-mobile-alt"></i>
+            <svg>
+                <polygon points="0,45 25,0 75,0 100,45 75,90 25,90"/>
+            </svg>
+        </div>
+        <p class="raleway">Responsive</p>
+        <p>Lorem ipsum dolor sit amet cras vitae sodales ac nec prellentesque vivamus eget mauris fusce sit amet</p>
+      </div>
+
+      <div class="about_bottom_item">
+        <div class="icon_hex">
+          <i class="fab fa-gripfire"></i>
+            <svg>
+                <polygon points="0,45 25,0 75,0 100,45 75,90 25,90"/>
+            </svg>
+        </div>
+        <p class="raleway">Clean & useful</p>
+        <p>Lorem ipsum dolor sit amet cras vitae sodales ac nec prellentesque vivamus eget mauris fusce sit amet</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--portfolio-->
+<section class="portfolio" id="portfolio">
+  <div class="container no-padding">
+  <h2 class="fontWhite">portfolio</h2>
+  <div class="portfolio_btn flex" id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')">All</button>
+    <button class="btn" onclick="filterSelection('illustration')">Illustration</button>
+    <button class="btn" onclick="filterSelection('digital-art')">Digital art</button>
+    <button class="btn" onclick="filterSelection('web-design')">Web design</button>
+  </div>
+  
+  <!-- Portfolio Gallery Grid -->
+  <div class="portfolio_items flex">
+    <div class="portfolio_item big illustration" style="background-color: #f39943; background-image: url(img/cash.png);">
+      <div class="content">
+        <a href="#">+</a>
+        <p>design name</p>
+      </div>
+    </div>
+    <div class="portfolio_item small web-design" style="background-color: #3782aa; background-image: url(img/bank.png);">
+      <div class="content">
+        <a href="#">+</a>
+        <p>design name</p>
+      </div>
+    </div>
+    <div class="portfolio_item big digital-art" style="background-color: #ef5d88; background-image: url(img/flower.png);">
+      <div class="content">
+        <a href="#">+</a>
+        <p>design name</p>
+      </div>
+    </div>
+    <div class="portfolio_item small web-design" style="background-color: #f6f0e0; background-image: url(img/card.png);">
+      <div class="content">
+        <a href="#">+</a>
+        <p>design name</p>
+      </div>
+    </div>
+    <div class="portfolio_item small digital-art" style="background-color: #56cc82; background-image: url(img/calc.png);">
+      <div class="content">
+        <a href="#">+</a>
+        <p>design name</p>
+      </div>
+    </div>
+    <div class="portfolio_item big illustration" style="background-color: #95a5a5; background-image: url(img/percent.png);">
+      <div class="content">
+        <a href="#">+</a>
+        <p>design name</p>
+      </div>
+    </div>
+    <div class="portfolio_item small web-design" style="background-color: #24b0c9; background-image: url(img/case.png);">
+      <div class="content">
+        <a href="#">+</a>
+        <p>design name</p>
+      </div>
+    </div>
+    <div class="portfolio_item big digital-art" style="background-color: #fa8562; background-image: url(img/check.png);">
+      <div class="content">
+        <a href="#">+</a>
+        <p>design name</p>
+      </div>
+    </div>
+  <!-- End grid -->
+  </div>
+  </div>
+</section>
+
+<!--features-->
+<section class="features">
+  <div class="container">
+    <h2><span class="fontBlack">our</span> product features</h2>
+    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit.</span> Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis.</p>
+    
+    <div class="features_main flex">
+      <!-- iPad -->
+      <div class="ipad">
+        <div class="bag polygon-top"></div>
+        <div class="bag polygon-bottom"></div>
+        <div class="ipad-body"></div>
+        <div class="ipad-screen"></div>
+        <a href="#" class="btn raleway">Free PSD</a>
+      </div>
+
+      <div class="features_main_items">
+        <div class="features_main_item flex">
+          <div class="raleway flex">
+            <p>Unlimited color options</p>
+          </div>
+          <div class="icon_hex hex">
+              <i class="fas fa-check"></i>
+          </div>
+        </div>
+
+        <div class="features_main_item flex">
+          <div class="raleway flex">
+            <p>Outstanding support</p>
+          </div>
+          <div class="icon_hex hex">
+              <i class="fas fa-check"></i>
+          </div>
+        </div>
+
+        <div class="features_main_item flex">
+          <div class="raleway flex">
+            <p>Retina ready</p>
+          </div>
+          <div class="icon_hex hex">
+              <i class="fas fa-check"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="features_main_items">
+        <div class="features_main_item flex">
+          <div class="raleway flex">
+            <p>Unlimited color options</p>
+          </div>
+          <div class="icon_hex hex">
+              <i class="fas fa-check"></i>
+          </div>
+        </div>
+
+        <div class="features_main_item flex">
+          <div class="raleway flex">
+            <p>Outstanding support</p>
+          </div>
+          <div class="icon_hex hex">
+              <i class="fas fa-check"></i>
+          </div>
+        </div>
+
+        <div class="features_main_item flex">
+          <div class="raleway flex">
+            <p>Retina ready</p>
+          </div>
+          <div class="icon_hex hex">
+              <i class="fas fa-check"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>    
+
+<!--clients-->
+<section class="clients" id="clients">
+  <div class="container line line-red">
+    <h2><span class="fontWhite">our</span> clients</h2>
+    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit.</span> Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis.</p>
+    <div class="clients_main flex">
+      <div class="clients_main_item">
+        <p class="raleway">happy clients say</p>
+
+        <!--mini-slider-->
+        <div class="mini-slider">
+          <input type="radio" name="slides" id="point1" checked>
+          <input type="radio" name="slides" id="point2">
+          <input type="radio" name="slides" id="point3">
+
+          <div class="mini-slider-slides">
+            <div class="slides slides1">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis.</p>
+              <img src="img/mini-slider1.jpg" class="hex">
+              <p class="raleway">Amr Srour</p>
+            </div>
+            <div class="slides slides2">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas.</p>
+              <img src="img/mini-slider2.jpg" class="hex">
+              <p class="raleway">Sarah Doe</p>
+            </div>
+            <div class="slides slides3">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim luctus eu in urna...</p>
+              <img src="img/mini-slider3.jpg" class="hex">
+              <p class="raleway">Johan De</p>
+            </div>
+          </div>
+
+          <div class="controls">
+            <label for="point1"></label>
+            <label for="point2"></label>
+            <label for="point3"></label>
+           </div>
+        </div>
+        <!--mini-slider end-->
+      </div>
+
+      <div class="clients_main_item flex">
+        <div class="photostock flex">
+          <img src="img/graphicriver.png">
+          <p>graphicriver</p>
+        </div>
+        <div class="photostock flex">
+          <img src="img/videohive.png">
+          <p>videohive</p>
+        </div>
+        <div class="photostock flex">
+          <img src="img/photodune.png">
+          <p>photodune</p>
+        </div>
+        <div class="photostock flex">
+          <img src="img/codecanyon.png">
+          <p>codecanyon</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--team-->
+<section class="team" id="team">
+  <div class="container line">
+    <h2><span class="fontBlack">our</span> teamwork</h2>
+    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit.</span> Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis.</p>
+    
+    <div class="team_items flex">
+      
+      <div class="team_item">
+        <img src="img/team_photo_1.jpg" alt="Bruce Wayne">
+        <!--скрытые соц. кнопки-->
+        <div class="socialHide">
+          <a href="#" class="fab fa-facebook-f social hex" title="Facebook"></a>
+          <a href="#" class="fab fa-twitter social hex" title="Twitter"></a>
+          <a href="#" class="fab fa-google-plus-g social hex" title="Google+"></a>
+        </div>
+        <!--подпись фото-->
+        <div class="team_name">
+          <p class="raleway">Bruce Wayne</p>
+          <p>Webdesigner</p>
+        </div>
+      </div>
+        
+        <div class="team_item">
+          <img src="img/team_photo_2.jpg" alt="Amr Sdour">
+          <div class="socialHide">
+            <a href="#" class="fab fa-facebook-f social hex" title="Facebook"></a>
+            <a href="#" class="fab fa-twitter social hex" title="Twitter"></a>
+            <a href="#" class="fab fa-google-plus-g social hex" title="Google+"></a>
+          </div>
+          <div class="team_name">
+            <p class="raleway">Amr Sdour</p>
+            <p>Webdesigner</p>
+          </div>
+        </div>
+
+      <div class="team_item">
+        <img src="img/team_photo_3.jpg" alt="Sarah Doe">
+        <div class="socialHide">
+          <a href="#" class="fab fa-facebook-f social hex" title="Facebook"></a>
+          <a href="#" class="fab fa-twitter social hex" title="Twitter"></a>
+          <a href="#" class="fab fa-google-plus-g social hex" title="Google+"></a>
+        </div>
+        <div class="team_name">
+          <p class="raleway">Sarah Doe</p>
+          <p>Webdesigner</p>
+        </div>
+      </div>
+
+      <div class="team_item">
+        <img src="img/team_photo_4.jpg" alt="Johan De">
+        <div class="socialHide">
+          <a href="#" class="fab fa-facebook-f social hex" title="Facebook"></a>
+          <a href="#" class="fab fa-twitter social hex" title="Twitter"></a>
+          <a href="#" class="fab fa-google-plus-g social hex" title="Google+"></a>
+        </div>
+        <div class="team_name">
+          <p class="raleway">Johan De</p>
+          <p>Webdesigner</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--skills-->
+<section class="skills">
+  <div class="container">
+    <h2><span class="fontBlack">our</span> skills</h2>
+    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit.</span> Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis.</p>
+    
+    <div class="skills_items flex">
+      
+      <div class="skills_item">
+        <div class="percent" style="background-image: linear-gradient(to right, #ff0036 90%, #e0e0e0 90%);">
+          <p class="percent_value"><span class="red">90</span>%</p>
+        </div>
+        <div>
+          <p class="raleway">Photoshop</p>
+          <p>Donec luctus tortor in placerat faucibus</p>
+        </div>
+      </div>
+
+      <div class="skills_item">
+        <div class="percent" style="background-image: linear-gradient(to right, #ff0036 80%, #e0e0e0 80%);">
+          <p class="percent_value"><span class="red">80</span>%</p>
+        </div>
+        <div>
+          <p class="raleway">Html</p>
+          <p>Donec luctus tortor in placerat faucibus</p>
+        </div>
+      </div>
+
+      <div class="skills_item">
+        <div class="percent" style="background-image: linear-gradient(to right, #ff0036 70%, #e0e0e0 70%);">
+          <p class="percent_value"><span class="red">70</span>%</p>
+        </div>
+        <div>
+          <p class="raleway">php</p>
+          <p>Donec luctus tortor in placerat faucibus</p>
+        </div>
+      </div>
+
+      <div class="skills_item">
+        <div class="percent" style="background-image: linear-gradient(to right, #ff0036 85%, #e0e0e0 85%);">
+          <p class="percent_value"><span class="red">85</span>%</p>
+        </div>
+        <div>
+          <p class="raleway">Wordpress</p>
+          <p>Donec luctus tortor in placerat faucibus</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--services-->
+<section class="services" id="services">
+  <div class="container  line line-red">
+    <h2><span class="fontWhite">our</span> services</h2>
+    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit.</span> Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis.</p>
+    <div class="services_items flex">
+
+      <div class="services_item">
+        <div class="flex">
+          <span class="hex"><i class="fas fa-code"></i></span>
+          <p class="raleway">Development</p>
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim luctus eu in urna Dapibus egestas in turpis and Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+        </div>
+      </div>
+
+      <div class="services_item">
+        <div class="flex">
+          <span class="hex"><i class="fab fa-html5"></i></span class="hex">
+          <p class="raleway">Html / css</p>
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim luctus eu in urna Dapibus egestas in turpis and Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+        </div>
+      </div>
+
+      <div class="services_item">
+        <div class="flex">
+          <span class="hex"><i class="fab fa-wordpress-simple"></i></span class="hex">
+          <p class="raleway">Wordpress</p>
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim luctus eu in urna Dapibus egestas in turpis and Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+        </div>
+      </div>
+
+      <div class="services_item">
+        <div class="flex">
+          <span class="hex"><i class="fas fa-tablet-alt"></i></span class="hex">
+          <p class="raleway">Applications</p>
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim luctus eu in urna Dapibus egestas in turpis and Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+        </div>
+      </div>
+
+      <div class="services_item">
+        <div class="flex">
+          <span class="hex"><i class="fas fa-pencil-alt"></i></span class="hex">
+          <p class="raleway">Ua / ux design</p>
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim luctus eu in urna Dapibus egestas in turpis and Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+        </div>
+      </div>
+
+      <div class="services_item">
+        <div class="flex">
+          <span class="hex"><i class="fas fa-laptop"></i></span class="hex">
+          <p class="raleway">Responsive layout</p>
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim luctus eu in urna Dapibus egestas in turpis and Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--bestseller-->
+<section class="bestseller">
+  <div class="container">
+    <h2><span class="fontBlack">plans</span> bestseller</h2>
+    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit.</span> Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis.</p>
+    <div class="bestseller_items flex">
+      
+      <div class="bestseller_item">
+        <table>
+          <tr><th class="raleway">Reseller</th></tr>
+          <tr><td><span>199$</span> year</td></tr>
+          <tr><td class="text-upper">CPU E3-1230 3.3GHz 8MB-V2</td></tr>
+          <tr><td class="text-upper">HARD 500GB SATA 7200 RPM</td class="text-upper"></tr>
+          <tr><td class="text-upper">RAM 8GB DDR3 1333MHZ ECC</td class="text-upper"></tr>
+          <tr><td>Traffic 10 TB</td></tr>
+          <tr><td>Connection 100 MB</td></tr>
+          <tr><td>5IP</td></tr>
+          <tr><td><a href="#" class="btn btn-slider raleway" title="Oreder now">Oreder now</a></td></tr>
+        </table>
+      </div>
+
+      <div class="bestseller_item">
+        <table>
+          <tr><th class="raleway">Reseller</th></tr>
+          <tr><td><span>299$</span> year</td></tr>
+          <tr><td class="text-upper">CPU E5-1530 3.6GHz 12MB-V2</td></tr>
+          <tr><td class="text-upper">HARD 750GB SATA 7200 RPM</td class="text-upper"></tr>
+          <tr><td class="text-upper">RAM 12GB DDR3 1666MHZ ECC</td class="text-upper"></tr>
+          <tr><td>Traffic 15 TB</td></tr>
+          <tr><td>Connection 200 MB</td></tr>
+          <tr><td>10IP</td></tr>
+          <tr><td><a href="#" class="btn btn-slider raleway" title="Oreder now">Oreder now</a></td></tr>
+        </table>
+      </div>
+
+      <div class="bestseller_item">
+        <table>
+          <tr><th class="raleway">Reseller</th></tr>
+          <tr><td><span>399$</span> year</td></tr>
+          <tr><td class="text-upper">CPU i7-9750 4.2GHz 16MB-V3</td></tr>
+          <tr><td class="text-upper">HARD 1000GB SATA 7200 RPM</td class="text-upper"></tr>
+          <tr><td class="text-upper">RAM 16GB DDR4 2400MHZ ECC</td class="text-upper"></tr>
+          <tr><td>Traffic 20 TB</td></tr>
+          <tr><td>Connection 500 MB</td></tr>
+          <tr><td>15IP</td></tr>
+          <tr><td><a href="#" class="btn btn-slider raleway" title="Oreder now">Oreder now</a></td></tr>
+        </table>
+      </div>
+
+      <div class="bestseller_item">
+        <table>
+          <tr><th class="raleway">Reseller</th></tr>
+          <tr><td><span>499$</span> year</td></tr>
+          <tr><td class="text-upper">CPU i9-9770K 4.8GHz 64MB-V2</td></tr>
+          <tr><td class="text-upper">HARD 1000GB SSD</td class="text-upper"></tr>
+          <tr><td class="text-upper">RAM 32GB DDR4 3600MHZ ECC</td class="text-upper"></tr>
+          <tr><td>Traffic 40 TB</td></tr>
+          <tr><td>Connection 1000 MB</td></tr>
+          <tr><td>20IP</td></tr>
+          <tr><td><a href="#" class="btn btn-slider raleway" title="Oreder now">Oreder now</a></td></tr>
+        </table>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--twitter-->
+<section class="twitter">
+  <div class="container line line-red">
+    <i class="fab fa-twitter"></i>
+    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis.</p>
+  </div>
+</section>
+
+<!--blog-->
+<section class="blog" id="blog">
+  <div class="container">
+    <h2><span class="fontBlack">our</span> blog</h2>
+    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit.</span> Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis.</p>
+    <div class="blog_items">
+
+      <div class="blog_item flex">
+        <div class="blog_item_picture"><img src="img/blog1.jpg"></div class="blog_item_picture">
+        <div class="blog_item_main">
+          <p class="raleway">Lorem ipsum dolor sit amet, consectetur</p>
+          <ul>
+            <li><i class="fas fa-user"></i>admin</li>
+            <li><i class="fas fa-comment"></i>1205</li>
+            <li><i class="far fa-eye"></i>1894</li>
+          </ul>
+          <p>Integer ornare libero nisi. Duis ac magna urna. Nulla facilisi. Phasellus at ante magna. Quisque nec porta nulla. Suspendisse nec orci vel elit aliquet blandit in non orci. Vivamus posuere dui eget lacinia rutrum. Cum sociis natoque penatibus ...</p>
+          <a href="#" class="btn btn-slider raleway" title="View more">View more</a>
+        </div>
+      </div>
+
+      <div class="blog_item flex">
+        <div class="blog_item_picture"><img src="img/blog2.jpg"></div class="blog_item_picture">
+        <div class="blog_item_main">
+          <p class="raleway">Lorem ipsum dolor sit amet, consectetur</p>
+          <ul>
+            <li><i class="fas fa-user"></i>user</li>
+            <li><i class="fas fa-comment"></i>608</li>
+            <li><i class="far fa-eye"></i>980</li>
+          </ul>
+          <p>Integer ornare libero nisi. Duis ac magna urna. Nulla facilisi. Phasellus at ante magna. Quisque nec porta nulla. Suspendisse nec orci vel elit aliquet blandit in non orci. Vivamus posuere dui eget lacinia rutrum. Cum sociis natoque penatibus ...</p>
+          <a href="#" class="btn btn-slider raleway" title="View more">View more</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--follow-->
+<section class="follow">
+  <div class="container line line-red">
+    <h2><span class="fontWhite">follow</span> creativia</h2>
+
+    <div class="follow_items flex">
+
+      <div class="follow_item">
+        <div class="icon_hex">
+          <i class="fab fa-facebook-f"></i>
+            <svg>
+                <polygon points="0,45 25,0 75,0 100,45 75,90 25,90"/>
+            </svg>
+        </div>
+        <p>20000</p>
+      </div>
+
+      <div class="follow_item">
+        <div class="icon_hex">
+          <i class="fab fa-twitter"></i>
+            <svg>
+                <polygon points="0,45 25,0 75,0 100,45 75,90 25,90"/>
+            </svg>
+        </div>
+        <p>99900</p>
+      </div>
+
+      <div class="follow_item">
+        <div class="icon_hex">
+          <i class="fab fa-pinterest-p"></i>
+            <svg>
+                <polygon points="0,45 25,0 75,0 100,45 75,90 25,90"/>
+            </svg>
+        </div>
+        <p>5000</p>
+      </div>
+
+      <div class="follow_item">
+        <div class="icon_hex">
+          <i class="fab fa-google-plus-g"></i>
+            <svg>
+                <polygon points="0,45 25,0 75,0 100,45 75,90 25,90"/>
+            </svg>
+        </div>
+        <p>200</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--contact-->
+<section class="contact" id="contact">
+  <!--карта-->
+  <div class="map" id="map"></div>
+
+  <div class="container">
+    <h2><span class="fontBlack">fine us</span> here</h2>
+    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur <span class="red">adipiscing elit.</span> Integer sed magna vel velit dignissim luctus eu in urna. Dapibus egestas turpis.</p>
+    
+    <!-- Form -->
+    <div class="form">
+      <form name="message">
+        <p class="raleway">Send message</p>
+        <input type="text" name="name" placeholder="Name">
+        <input type="email" name="email" placeholder="Email">
+        <input type="text" name="subject" placeholder="Subject">
+        <textarea rows="5" name="message"></textarea>
+        <input type="button" value="Submit">
+      </form>
+    </div>
+  </div>
+</section>
+
+<!--footer-->
+<footer>
+  <div class="container">
+    <img src="img/logo-footer.png">
+  </div>
+</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key="></script>
+    <script src="main.js"></script>
+  </body>
+</html>
